@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class BestScore : MonoBehaviour
 {
-    // Start is called before the first frame update
     private void Start()
     {
         GetComponent<Text>().text = "Best Score : " + Score.Bestscore.ToString();
